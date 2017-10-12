@@ -3,9 +3,11 @@ using Microsoft.AspNetCore.Hosting;
 
 namespace FriendLetter
 {
-    public static void Main()
+    public class Program
   {
-    var host = new Main (string {} args)
+      publice static void Main(string{} args)
+      {
+    var host = new WebHostBuilder()
         .UseKestrel()
         .UseContentRoot(Directory.GetCurrentDirectory())
         .UseIISIntegration()

@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace TaskList
+namespace FriendLetter
 {
 
   public class Startup
@@ -28,11 +28,10 @@ namespace TaskList
     app.UseDeveloperExceptionPage();
     app.UseStaticFiles();
     app.UseMvc(routes=>
-  {
+    {
       routes.MapRoute(
         name: "default",
-        template: "{controller=Home}/{action=Index}/{id?}");
-        
+        template: "{controller=Home}/{action=Index}/{id?}");        
       });
     }
   }

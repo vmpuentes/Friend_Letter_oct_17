@@ -5,15 +5,14 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace FriendLetter
 {
-
   public class Startup
-{
+  {
   public Startup(IHostingEnvironment env)
   {
-    var builder = new ConfigurationsBuilder()
+    var builder = new ConfigurationBuilder()
         .SetBasePath(env.ContentRootPath)
         .AddEnvironmentVariables();
-      Congifuration = builder.Build();
+      Configuration = builder.Build();
   }
 
   public IConfigurationRoot Configuration { get; }
@@ -23,15 +22,15 @@ namespace FriendLetter
     services.AddMvc();
   }
 
-  public void Configure(IapplicationBuilder app)
+  public void Configure(IApplicationBuilder app)
   {
-    app.UseDeveloperExceptionPage();
-    app.UseStaticFiles();
+    // app.UseDeveloperExceptionPage();
+    // app.UseStaticFiles();
     app.UseMvc(routes=>
     {
       routes.MapRoute(
         name: "default",
-        template: "{controller=Home}/{action=Index}/{id?}");        
+        template: "{controller=Home}/{action=Index}/{id?}");
       });
     }
   }

@@ -9554,16 +9554,16 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Guest/Desktop/Friend_Letter_oct_17/Friend_Letter/friend_letter.csproj",
+      "projectUniqueName": "/Users/Guest/Desktop/Friend_Letter_oct_17/friend_letter.csproj",
       "projectName": "friend_letter",
-      "projectPath": "/Users/Guest/Desktop/Friend_Letter_oct_17/Friend_Letter/friend_letter.csproj",
-      "outputPath": "/Users/Guest/Desktop/Friend_Letter_oct_17/Friend_Letter/obj/",
+      "projectPath": "/Users/Guest/Desktop/Friend_Letter_oct_17/friend_letter.csproj",
+      "outputPath": "/Users/Guest/Desktop/Friend_Letter_oct_17/obj/",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/friend_letter.dll": "/Users/Guest/Desktop/Friend_Letter_oct_17/Friend_Letter/bin/placeholder/netcoreapp1.1/friend_letter.dll"
+        "lib/netcoreapp1.1/friend_letter.dll": "/Users/Guest/Desktop/Friend_Letter_oct_17/bin/placeholder/netcoreapp1.1/friend_letter.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {
